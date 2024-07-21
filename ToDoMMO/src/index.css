@@ -6,6 +6,9 @@
 
 body {
     @apply bg-neutral-800;
+    --fc-button-bg-color: #232323;
+    --fc-button-border-color: #808080;
+    --fc-button-hover-bg-color: #A0A0A0;
 }
 
 #piselo {
@@ -16,4 +19,24 @@ body {
     image-rendering: pixelated;                 
     image-rendering: optimize-contrast;         
     -ms-interpolation-mode: nearest-neighbor;
+}
+
+.fc .fc-col-header-cell-cushion {
+    /* sets the text color to white */
+    color: white;
+}
+
+.fc .fc-toolbar-title {
+    /* sets the text color to white */
+    color: white;
+}
+
+.fc .fc-daygrid-day-number {
+    /* sets the text color to white */
+    color: white;
+}
+
+.fc .fc-button {
+    background-color: #525252;
+    border-color: #808080;
 }
